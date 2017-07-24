@@ -1,0 +1,59 @@
+/*body{
+	background-image: url("djpon3.gif");
+	background-size: cover;
+}*/
+
+#jukebox{
+	display: block;
+	height: 200px;
+	width: 300px;
+	background-color: grey;
+	border-radius: 30px;
+}
+
+#play{
+	display: block;
+	background-color: green;
+	color: white;
+	height: 50px;
+	width: 30%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+#stop{
+	display: block;
+	background-color: red;
+	color: white;
+	height: 50px;
+	width: 30%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+#skip{
+	display: block;
+	background-color: blue;
+	color: white;
+	height: 50px;
+	width: 30%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+#pinkie{
+	display: block;
+	position: absolute;
+	width: 400px;
+	height: 285.25px;
+	z-index: 10;
+	bottom: 0px;
+}
