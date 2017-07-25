@@ -1,59 +1,85 @@
-/*body{
-	background-image: url("djpon3.gif");
+body{
+	background-image: url("Images/kirakira.jpg");
 	background-size: cover;
-}*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 #jukebox{
-	display: block;
-	height: 200px;
 	width: 300px;
-	background-color: grey;
-	border-radius: 30px;
+	height: 100px;
+	display: block;
+	background: linear-gradient(red, white);
+	border-style: ridge;
+	border-width: 10px;
+	border-color: yellow;
+	border-radius: 40px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 23%;
+	z-index: 10;
+}
+
+#track0{
+	display: none;
+	position: absolute;
+	left: 25%;
+	top: -10%;
+	z-index: 1;
+}
+
+#track1{
+	display: none;
+	position: absolute;
+	left: 28%;
+	top: -5%;
+	z-index: 1;
+}
+
+#track2{
+	display: none;
+	position: absolute;
+	left: 25%;
+	top: -10%;
+	z-index: 1;
+}
+
+#track3{
+	display: none;
+	position: absolute;
+	left: 28%;
+	top: -5%;
+	z-index: 1;
+}
+
+#track4{
+	display: none;
+	position: absolute;
+	left: 20%;
+	top: -10%;
+	z-index: 1;
 }
 
 #play{
 	display: block;
-	background-color: green;
-	color: white;
-	height: 50px;
-	width: 30%;
-	text-align: center;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 20px;
+	position: absolute;
+	right: 110px;
+	top: 30px;
 }
 
-#stop{
+#pause{
 	display: block;
-	background-color: red;
-	color: white;
-	height: 50px;
-	width: 30%;
-	text-align: center;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 20px;
-	margin-top: 20px;
+	position: absolute;
+	right: 60px;
+	top: 30px;
 }
 
 #skip{
 	display: block;
-	background-color: blue;
-	color: white;
-	height: 50px;
-	width: 30%;
-	text-align: center;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 20px;
-	margin-top: 20px;
-}
-
-#pinkie{
-	display: block;
 	position: absolute;
-	width: 400px;
-	height: 285.25px;
-	z-index: 10;
-	bottom: 0px;
+	right: 10px;
+	top: 30px;
 }
+/*#album-artwork{
+	display: block;
+}*/

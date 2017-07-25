@@ -1,23 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-	<title>Randall's Jukebox</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-	</script>
-	<img id="pinkie" src="pinkie-pie.png">
-
-	<div id="jukebox">
-		<h1 id="play">Play</h1>
-		<h1 id="stop">Stop</h1>
-		<h1 id="skip">Skip</h1>
-	</div>
-
-
-
-
-	<script type="text/javascript" src="script.js"></script>
-</body>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    	<div id="track0">
+    		<img src="Images/kirakiraprecure.png">
+    	</div>
+    	<div id="track1">
+    		<img src="Images/heartcatch.png">
+    	</div>
+    	<div id="track2">
+    		<img src="Images/dokidoki.png">
+    	</div>
+    	<div id="track3">
+    		<img src="Images/smile.png">
+    	</div>
+    	<div id="track4">
+    		<img src="Images/princess.png">
+    	</div>
+    	<div id="jukebox">
+			<div id="album-artwork"></div>
+    		<img id="play" src="Images/play.png" width="50px" height="50px" >
+    		<img id="pause" src="Images/pause.png" width="50px" height="50px">
+    		<img id="skip" src="Images/skip.png" width="50px" height="50px">
+    	</div>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+    	<script src="script.js"></script>
+    </body>
 </html>
